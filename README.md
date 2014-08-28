@@ -17,3 +17,5 @@ git add probe
 git commit probe https://github.com/gerdkolano
 
 error: pathspec 'https://github.com/gerdkolano' did not match any file(s) known to git.
+
+git fetch git://github.com/gerdkolano/probe.git
