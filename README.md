@@ -22,4 +22,34 @@ git fetch git://github.com/gerdkolano/probe.git
 
 liefert nicht die hier getippten Änderungen.
 
+Erst mit einem "jungfräulichen" "repository" https://github.com/gerdkolano/dlf habe ich Erfolg.
+
+
+Nach probe.git kann ich nichts hochladen.
+
+git push probe master
+ 
+Username for 'https://github.com': gerdkolano
+
+Password for 'https://gerdkolano@github.com': 
+
+To https://github.com/gerdkolano/probe.git
+
+ ! [rejected]        master -> master (fetch first)
+
+error: Fehler beim Versenden einiger Referenzen nach 'https://github.com/gerdkolano/probe.git'
+
+Hinweis: Aktualisierungen wurden zurückgewiesen, weil das Remote-Repository Commits enthält,
+
+Hinweis: die lokal nicht vorhanden sind. Das wird üblicherweise durch einen "push" von
+
+Hinweis: Commits auf dieselbe Referenz von einem anderen Repository aus verursacht.
+
+Hinweis: Vielleicht müssen Sie die externen Änderungen zusammenzuführen (z.B. 'git pull ...')
+
+Hinweis: bevor Sie erneut "push" ausführen.
+
+Hinweis: Siehe auch die Sektion 'Note about fast-forwards' in 'git push --help'
+
+Hinweis: für weitere Details.
 
