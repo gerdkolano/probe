@@ -12,3 +12,8 @@ kann ich mit
   
 wieder herausholen, wenn 'probe' noch nicht existiert.
 
+git add probe
+
+git commit probe https://github.com/gerdkolano
+
+error: pathspec 'https://github.com/gerdkolano' did not match any file(s) known to git.
