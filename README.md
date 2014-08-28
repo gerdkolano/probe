@@ -10,5 +10,5 @@ kann ich mit
   
   fatal: Zielpfad 'probe' existiert bereits und ist kein leeres Verzeichnis.
   
-wieder herausholen, wenn 'probe' novh nicht existiert.
+wieder herausholen, wenn 'probe' noch nicht existiert.
 
