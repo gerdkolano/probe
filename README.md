@@ -2,7 +2,7 @@ Erprobe git und github
 =====
 trying to find out how to use github Wie krieg' ich nun meine Dateien hier rein?
 
-Das in https://github.com/gerdkolano/probe/edit/master/README.md getippte
+Das im Browser in https://github.com/gerdkolano/probe/edit/master/README.md eingetippte
 
 kann ich mit
 
