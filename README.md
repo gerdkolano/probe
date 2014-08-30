@@ -55,15 +55,15 @@ Hinweis: für weitere Details.
 
 So geht's:
 
-hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ cd /zoe-home/zoe-hanno/android/Deutschlandfunk
+    hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ cd /zoe-home/zoe-hanno/android/Deutschlandfunk
 
-# hier gibt es .git und README.md
+    # hier gibt es .git und README.md
 
-hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git add --all favoriten  | cat
+    hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git add --all favoriten  | cat
 
-# überflüssig: git remote add origin https://github.com/gerdkolano/dlf.git
+    # überflüssig: git remote add origin https://github.com/gerdkolano/dlf.git
 
-hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git remote -v # zeigt origin	
+    hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git remote -v # zeigt origin	
 
 https://github.com/gerdkolano/eutschlandfun.git (fetch) und (push)
 
