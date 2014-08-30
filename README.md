@@ -1,4 +1,4 @@
-probe
+Erprobe git und github
 =====
 trying to find out how to use github Wie krieg' ich nun meine Dateien hier rein?
 
@@ -52,4 +52,70 @@ Hinweis: bevor Sie erneut "push" ausführen.
 Hinweis: Siehe auch die Sektion 'Note about fast-forwards' in 'git push --help'
 
 Hinweis: für weitere Details.
+
+So geht's:
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ cd /zoe-home/zoe-hanno/android/Deutschlandfunk
+
+# hier gibt es .git und README.md
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git add --all favoriten  | cat
+
+# überflüssig: git remote add origin https://github.com/gerdkolano/dlf.git
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git remote -v # zeigt origin	
+
+https://github.com/gerdkolano/eutschlandfun.git (fetch) und (push)
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git add --all favoriten  | cat
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git commit
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git push -u origin master # antwortet mit
+
+# Username for 'https://github.com': gerdkolano
+
+# Password for 'https://
+
+ gerdkolano@github.com':
+
+# Counting objects: 51, done.
+
+# Delta compression using up to 4 threads.
+
+# Compressing objects: 100% (20/20), done.
+
+# Writing objects: 100% (29/29), 378.28 KiB | 0 bytes/s, done.
+
+# Total 29 (delta 13), reused 0 (delta 0)
+
+# To https://github.com/gerdkolano/eutschlandfun.git
+
+#    b121bcc..542314a  master -> master
+
+# Branch master konfiguriert zum Folgen von Remote-Branch master von origin.
+
+# nun https://github.com/gerdkolano/eutschlandfun
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ pushd /zoe-home/zoe-hanno/android/Deutschlandfunk/favoriten/src/
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git status | cat
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git commit -a
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git push -u origin master
+
+# Nun ändert jemand anderes. z.B. wird im Browser ein README.md hinzugefügt.
+
+# Dann muss folgendes Kommando gegeben werden
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git pull origin master
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ vim README.md
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git commit -a
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git push -u origin master
+
+hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ 
 
