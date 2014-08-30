@@ -53,7 +53,7 @@ Hinweis: Siehe auch die Sektion 'Note about fast-forwards' in 'git push --help'
 
 Hinweis: für weitere Details.
 
-So geht's:
+So geht's: (md Markdown siehe http://support.iawriter.com/help/kb/general-questions/markdown-syntax-reference-guide)
 
     hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ cd /zoe-home/zoe-hanno/android/Deutschlandfunk
     # hier gibt es .git und README.md
