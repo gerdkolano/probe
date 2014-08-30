@@ -119,3 +119,4 @@ hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ git push -u origin master
 
 hanno@zoe:/zoe-home/zoe-hanno/android/Deutschlandfunk$ 
 
+# Die Zieladresse ist in .git/config gespeichert
